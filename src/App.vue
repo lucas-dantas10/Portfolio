@@ -1,16 +1,21 @@
 <script setup>
 import HeaderVue from '@/views/Header/Header.vue';
-import About from '@/views/About/About.vue';
+import Home from '@/views/Home/Home.vue';
+import About from './views/About/About.vue';
+import Portfolio from './views/Portfolio/Portfolio.vue';
 </script>
 
 <template>
   <div class="w-full h-full">
     <HeaderVue />
 
-    <About />
+    <Home />
 
-    <!-- <main>
+    <main class="flex flex-wrap items-center max-w-screen-xl mx-auto p-4">
+        <About />
 
-    </main> -->
+        <Portfolio />
+        
+    </main>
   </div>
 </template>
