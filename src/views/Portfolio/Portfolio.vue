@@ -16,15 +16,27 @@ import TodoList from '@/assets/imgs/todolist.png';
 
         <div class="w-full flex flex-wrap items-center gap-6">
             <Card
-                title="Upload Ai Web Site"
+                title="Upload Ai Website"
                 subtitle="Upload AI - Aplicação que possibilita realizar upload de videos e por meio de IA, criar automaticamente títulos chamativos e descrições com um boa indexação. Aplicação realizada em conjunto da Rocketseat."
                 :image="UploadAi"
+                github="https://github.com/lucas-dantas10/upload.ai"
+                website=""
             />
 
             <Card
-                title="ToDo List"
+                title="ToDo List Website"
                 subtitle="Todo List - Aplicação que possibilita adicionar tarefas, editar tarefas, adicionar customizações, possui um cronômetro para poder medir o tempo que realiza a tarefa, calendário para identificar as tarefas do dia selecionado."
                 :image="TodoList"
+                github="https://github.com/lucas-dantas10/TodoList"
+                website="https://todolistapp01.netlify.app/"
+            />
+
+            <Card
+                title="ToDo List API"
+                subtitle="Todo List -  A API do ToDoList é uma interface de programação de aplicativos (API) RESTful projetada para uma aplicação web de gerenciamento de tarefas. Ela permite a comunicação entre o front-end e o back-end."
+                :image="TodoList"
+                github="https://github.com/lucas-dantas10/ToDoListApi"
+                website=""
             />
         </div>
     </section>
