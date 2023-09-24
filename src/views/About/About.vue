@@ -20,9 +20,9 @@ import AboutImage from "@/assets/imgs/about_me.svg";
                 <h2 class="text-2xl font-bold dark:text-blue-600">Desenvolvedor Full Stack</h2>
 
                 <p class="text-justify font-medium dark:text-white">
-                    Cursando Sistemas de Informação, Desenvolvedor Full Stack. Foco em implementar, executar,
-                    integrar desenvolvendo sistemas, sites, softwares e outros. Sou extremamente motivado, e sempre
-                    estou em constante desenvolvimento de minhas habilidades.
+                    Sou estudante de Sistemas de Informação e um Desenvolvedor Full Stack,
+                    com uma forte dedicação em implementar, executar e integrar sistemas, sites, softwares e mais. 
+                    Mantenho-me altamente motivado, buscando constantemente aprimorar minhas habilidades.
                 </p>
             </div>
         </div>
