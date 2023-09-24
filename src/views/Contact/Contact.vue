@@ -10,29 +10,29 @@
 
         <div class="w-full flex items-center justify-between">
             <div class="flex items-center gap-6">
-                <h1 class="dark:text-white">icone</h1>
+                <v-icon name="co-location-pin" class="text-red-500" :scale="1.4" animation="wrench" :hover="true"></v-icon>
 
                 <div class="flex flex-col justify-center dark:text-white">
                     <h4 class="text-2xl font-medium">Localização:</h4>
-                    <p>Rio de Janeiro - RJ</p>
+                    <p class="font-semibold">Rio de Janeiro - RJ</p>
                 </div>
             </div>
 
             <div class="flex items-center gap-6">
-                <h1 class="dark:text-white">icone</h1>
+                <v-icon name="md-email" class="text-red-500" :scale="1.4" animation="wrench" :hover="true"></v-icon>
 
                 <div class="flex flex-col justify-center dark:text-white">
                     <h4 class="text-2xl font-medium">E-mail:</h4>
-                    <p>lucas.dantas.nogueira@gmail.com</p>
+                    <p class="font-semibold">lucas.dantas.nogueira@gmail.com</p>
                 </div>
             </div>
 
             <div class="flex items-center gap-6">
-                <h1 class="dark:text-white">icone</h1>
+                <v-icon name="co-phone" class="text-red-500" :scale="1.4" animation="wrench" :hover="true"></v-icon>
 
                 <div class="flex flex-col justify-center dark:text-white">
                     <h4 class="text-2xl font-medium">Telefone:</h4>
-                    <p>+55 (21) 99596-9988</p>
+                    <p class="font-semibold">+55 (21) 99596-9988</p>
                 </div>
             </div>
         </div>
