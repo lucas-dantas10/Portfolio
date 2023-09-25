@@ -7,11 +7,12 @@ import { OhVueIcon, addIcons } from "oh-vue-icons";
 import { 
     BiGithub, BiLinkedin, BiInstagram, ViFileTypeHtml, ViFileTypeCss, CoJavascript, ViFileTypePhp3, 
     ViFileTypeVue, SiLaravel, ViFileTypeDocker, ViFileTypeTailwind, ViFileTypePython, CoLocationPin,
-    MdEmail, CoPhone, GiWorld 
+    MdEmail, CoPhone, GiWorld
  } 
 from "oh-vue-icons/icons";
 
-addIcons(BiGithub, BiInstagram, BiLinkedin, ViFileTypeHtml, 
+addIcons(
+    BiGithub, BiInstagram, BiLinkedin, ViFileTypeHtml, 
     ViFileTypeCss, CoJavascript, ViFileTypePhp3, 
     ViFileTypeVue, SiLaravel, ViFileTypeDocker, 
     ViFileTypeTailwind, ViFileTypePython, CoLocationPin, 
