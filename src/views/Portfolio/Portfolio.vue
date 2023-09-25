@@ -5,7 +5,7 @@ import TodoList from '@/assets/imgs/todolist.png';
 </script>
 
 <template>
-    <section class="w-full h-screen" id="portfolio">
+    <section class="w-full h-full lg:w-full lg-h-screen" id="portfolio">
         <div class="flex items-center justify-center mt-32 mb-16">
             <div class="w-[9rem]">
                 <h1 class="text-center text-4xl font-semibold dark:text-white border-b-2 border-blue-600 pb-2">

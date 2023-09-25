@@ -3,8 +3,8 @@ import Lucas from '@/assets/imgs/lucas.png';
 </script>
 
 <template>
-    <section class="flex flex-wrap items-center gap-16 max-w-screen-xl h-[80vh] mx-auto p-4" id="home">
-        <div class="flex flex-col gap-4 items-center">
+    <section class="h-[40vh] mb-32 mt-32 lg:mb-0 lg:mt-0 flex flex-wrap items-center gap-16 max-w-screen-xl lg:h-[80vh] mx-auto p-4" id="home">
+        <div class="w-full order-last flex flex-row gap-4 items-center justify-center lg:flex-col lg:w-auto lg:order-none lg:items-center">
             <a
                 href="https://github.com/lucas-dantas10"
                 target="_blank"
@@ -28,7 +28,7 @@ import Lucas from '@/assets/imgs/lucas.png';
             </a>
         </div>
 
-        <div class="flex-1 flex items-center gap-40">
+        <div class="w-full flex-1 flex items-center gap-40">
             <div class="flex-1 flex flex-col gap-4 w-[50%] dark:text-white">
                 <h1 class="dark:text-white text-5xl font-semibold">Lucas Dantas</h1>
 
@@ -37,7 +37,7 @@ import Lucas from '@/assets/imgs/lucas.png';
                 <p class="text-lg font-medium">Este é meu Portfólio Oficial.</p>
 
                 <div class="w-full flex flex-col gap-4">
-                    <div class="flex items-center gap-4 border-b border-gray-500 w-[80%] pb-2 dark:border-gray-400">
+                    <div class="flex items-center gap-4 border-b border-gray-500 lg:w-[80%] pb-2 dark:border-gray-400">
                         <v-icon name="si-laravel" fill="red" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon name="vi-file-type-vue" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon name="vi-file-type-php3" :scale="1.4" animation="wrench" :hover="true"></v-icon>
@@ -62,8 +62,8 @@ import Lucas from '@/assets/imgs/lucas.png';
                 </div>
             </div>
 
-            <div class="flex-1">
-                <img :src="Lucas" alt="Imagem do Lucas" class="w-52 h-52 border-2 border-gray-950 rounded-full dark:border dark:border-white">
+            <div class="hidden lg:block lg:flex-1">
+                <img :src="Lucas" alt="Imagem do Lucas" class="hidden lg:block lg:w-52 lg:h-52 lg:border-2 lg:border-gray-950 lg:rounded-full lg:dark:border lg:dark:border-white">
             </div>
         </div>
     </section>

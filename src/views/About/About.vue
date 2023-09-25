@@ -3,7 +3,7 @@ import AboutImage from "@/assets/imgs/about_me.svg";
 </script>
 <template>
     <section class="w-full h-screen" id="about">
-        <div class="flex items-center justify-center mt-32 mb-16">
+        <div class="mb-16 flex items-center justify-center lg:mt-32 lg:mb-16">
             <div class="w-[6rem]">
                 <h1 class="text-center text-4xl font-semibold dark:text-white border-b-2 border-blue-600 pb-2">
                     Sobre
@@ -11,12 +11,12 @@ import AboutImage from "@/assets/imgs/about_me.svg";
             </div>
         </div>
 
-        <div class="w-full h-full flex justify-center gap-32 2xl:justify-between">
-            <div class="w-80 h-80">
+        <div class="flex flex-col justify-center items-center lg:w-full lg:flex-row lg:justify-center lg:gap-32 2xl:justify-between">
+            <div class="lg:w-80 lg:h-80">
                 <img :src="AboutImage" alt="Imagem de um Vector Pensativo" class="w-80- h-80" />
             </div>
 
-            <div class="w-[40%] flex flex-col gap-4">
+            <div class="w-full flex flex-col gap-4 lg:w-[40%] lg:flex-col lg:gap-4">
                 <h2 class="text-2xl font-bold dark:text-blue-600">Desenvolvedor Full Stack</h2>
 
                 <p class="text-justify font-medium dark:text-white">
