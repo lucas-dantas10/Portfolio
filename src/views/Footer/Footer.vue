@@ -1,6 +1,6 @@
 <template>
     <footer
-        class="w-full h-full p-6 mb-32 lg:mt-32 bg-gradient-to-b from-white to-gray-400 dark:bg-gradient-to-b dark:from-gray-900 dark:to-black"
+        class="w-full h-full p-6 mb-32 lg:mt-32 lg:mb-0 bg-gradient-to-b from-white to-gray-400 dark:bg-gradient-to-b dark:from-gray-900 dark:to-black"
         id="footer"
     >
         <div class="w-full h-full">
@@ -9,7 +9,7 @@
 
                 <div>
                     <p class="text-center font-medium dark:text-white">Este é meu Portfólio oficial.</p>
-                    <p class="font-medium dark:text-white text-justify">
+                    <p class="font-medium dark:text-white text-center">
                         Aqui você encontrará todos os projetos que desenvolvi.
                     </p>
                 </div>
@@ -47,7 +47,7 @@
             </div>
 
             <div class="pb-4">
-                <p class="font-medium text-center dark:text-white">
+                <p class="font-medium text-center  dark:text-white">
                     © Copyright <span class="font-bold text-blue-600">Lucas Dantas</span>. All Rights Reserved
                 </p>
                 <p class="text-center font-semibold dark:text-white">
