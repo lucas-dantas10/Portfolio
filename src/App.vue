@@ -5,6 +5,7 @@ import About from '@/views/About/About.vue';
 import Portfolio from '@/views/Portfolio/Portfolio.vue';
 import Contact from '@/views/Contact/Contact.vue';
 import Footer from '@/views/Footer/Footer.vue';
+import ButtonGoToTop from '@/components/ButtonGoToTop/ButtonGoToTop.vue';
 </script>
 
 <template>
@@ -22,6 +23,9 @@ import Footer from '@/views/Footer/Footer.vue';
         
     </main>
 
+    <ButtonGoToTop />
+
     <Footer />
   </div>
+ 
 </template>
