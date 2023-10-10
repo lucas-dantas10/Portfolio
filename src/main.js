@@ -5,14 +5,14 @@ import App from './App.vue';
 // ÍCONES
 import { OhVueIcon, addIcons } from "oh-vue-icons";
 import { 
-    BiGithub, BiLinkedin, BiInstagram, ViFileTypeHtml, ViFileTypeCss, CoJavascript, ViFileTypePhp3, 
+    BiGithub, BiLinkedin, CoLeetcode, ViFileTypeHtml, ViFileTypeCss, CoJavascript, ViFileTypePhp3, 
     ViFileTypeVue, SiLaravel, ViFileTypeDocker, ViFileTypeTailwind, ViFileTypePython, CoLocationPin,
     MdEmail, CoPhone, GiWorld, BiArrowUpCircleFill
  } 
 from "oh-vue-icons/icons";
 
 addIcons(
-    BiGithub, BiInstagram, BiLinkedin, ViFileTypeHtml, 
+    BiGithub, BiLinkedin, CoLeetcode, ViFileTypeHtml, 
     ViFileTypeCss, CoJavascript, ViFileTypePhp3, 
     ViFileTypeVue, SiLaravel, ViFileTypeDocker, 
     ViFileTypeTailwind, ViFileTypePython, CoLocationPin, 
