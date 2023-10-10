@@ -34,9 +34,9 @@
                             :hover="true"
                         ></v-icon>
                     </a>
-                    <a href="https://github.com/lucas-dantas10" target="_blank">
+                    <a href="https://leetcode.com/lucas-dantas10/" target="_blank">
                         <v-icon
-                            name="bi-instagram"
+                            name="co-leetcode"
                             class="dark:text-white"
                             :scale="1.4"
                             animation="wrench"

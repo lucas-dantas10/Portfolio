@@ -20,11 +20,11 @@ import Lucas from '@/assets/imgs/lucas.png';
                 <v-icon name="bi-linkedin" :scale="1.4" animation="wrench" :hover="true"></v-icon>
             </a>
             <a
-                href="https://github.com/lucas-dantas10"
+                href="https://leetcode.com/lucas-dantas10/"
                 target="_blank"
                 class="border-l-gray-950 rounded-xl px-4 py-2 bg-gray-950 hover:bg-blue-600 dark:bg-gray-950 text-white dark:hover:bg-white dark:hover:text-gray-950"
             >
-                <v-icon name="bi-instagram" :scale="1.4" animation="wrench" :hover="true"></v-icon>
+                <v-icon name="co-leetcode" :scale="1.4" animation="wrench" :hover="true"></v-icon>
             </a>
         </div>
 
