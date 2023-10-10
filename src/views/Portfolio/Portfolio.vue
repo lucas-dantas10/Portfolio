@@ -2,6 +2,7 @@
 import Card from '@/components/Card/Card.vue';
 import UploadAi from '@/assets/imgs/upload_ai.png';
 import TodoList from '@/assets/imgs/todolist.png';
+import Ecommerce from '@/assets/imgs/ecommerce.png';
 </script>
 
 <template>
@@ -20,7 +21,7 @@ import TodoList from '@/assets/imgs/todolist.png';
                 subtitle="Upload AI - Aplicação que possibilita realizar upload de videos e por meio de IA, criar automaticamente títulos chamativos e descrições com um boa indexação. Aplicação realizada em conjunto da Rocketseat."
                 :image="UploadAi"
                 github="https://github.com/lucas-dantas10/upload.ai"
-                website=""
+                website="https://github.com/lucas-dantas10/upload.ai"
             />
 
             <Card
@@ -36,7 +37,15 @@ import TodoList from '@/assets/imgs/todolist.png';
                 subtitle="Todo List -  A API do ToDoList é uma interface de programação de aplicativos (API) RESTful projetada para uma aplicação web de gerenciamento de tarefas. Ela permite a comunicação entre o front-end e o back-end."
                 :image="TodoList"
                 github="https://github.com/lucas-dantas10/ToDoListApi"
-                website=""
+                website="https://github.com/lucas-dantas10/ToDoListApi"
+            />
+
+            <Card
+                title="E-commerce"
+                subtitle="E-commerce -  Aplicação E-commerce construída com Laravel, VueJs, tailwindcss. Com painel de administrador com dashboard e relatórios, Api RESTful, gerenciamento de cliente, pagamento e etc."
+                :image="Ecommerce"
+                github="https://github.com/lucas-dantas10/e-commerce"
+                website="https://github.com/lucas-dantas10/e-commerce"
             />
         </div>
     </section>
