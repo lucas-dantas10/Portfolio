@@ -15,7 +15,11 @@
                 </div>
 
                 <div class="flex items-center justify-center gap-4 mb-8">
-                    <a href="https://github.com/lucas-dantas10" target="_blank">
+                    <a 
+                        href="https://github.com/lucas-dantas10" 
+                        aria-label="Link para o github"
+                        target="_blank"
+                    >
                         <v-icon
                             name="bi-github"
                             class="dark:text-white"
@@ -25,7 +29,11 @@
                         ></v-icon>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/lucas-dantas10/" target="_blank">
+                    <a 
+                        href="https://www.linkedin.com/in/lucas-dantas10/" 
+                        aria-label="Link para o linkedin"
+                        target="_blank"
+                    >
                         <v-icon
                             name="bi-linkedin"
                             class="dark:text-white"
@@ -34,7 +42,11 @@
                             :hover="true"
                         ></v-icon>
                     </a>
-                    <a href="https://leetcode.com/lucas-dantas10/" target="_blank">
+                    <a 
+                        href="https://leetcode.com/lucas-dantas10/" 
+                        aria-label="Link para o leetcode"
+                        target="_blank"
+                    >
                         <v-icon
                             name="co-leetcode"
                             class="dark:text-white"

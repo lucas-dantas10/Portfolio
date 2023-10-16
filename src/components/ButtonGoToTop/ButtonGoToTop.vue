@@ -34,7 +34,7 @@ function scrollToTop() {
         <div
             class="text-gray-400 hover:text-blue-400 transition"
         >
-            <button @click="scrollToTop">
+            <button @click="scrollToTop" aria-label="Botão para ir ao topo">
                 <v-icon name="bi-arrow-up-circle-fill" class="text-gray-950 dark:text-gray-300" :scale="3" animation="wrench" :hover="true"></v-icon>
             </button>
         </div>

@@ -7,6 +7,7 @@ import Lucas from '@/assets/imgs/lucas.png';
         <div class="w-full order-last flex flex-row gap-4 items-center justify-center lg:flex-col lg:w-auto lg:order-none lg:items-center">
             <a
                 href="https://github.com/lucas-dantas10"
+                aria-label="Link para o github"
                 target="_blank"
                 class="border-l-gray-950 rounded-xl px-4 py-2 bg-gray-950 hover:bg-blue-600 dark:bg-gray-950 text-white dark:hover:bg-white dark:hover:text-gray-950"
             >
@@ -14,6 +15,7 @@ import Lucas from '@/assets/imgs/lucas.png';
             </a>
             <a
                 href="https://www.linkedin.com/in/lucas-dantas10/"
+                aria-label="Link para o linkedin"
                 target="_blank"
                 class="border-l-gray-950 rounded-xl px-4 py-2 bg-gray-950 hover:bg-blue-600 dark:bg-gray-950 text-white dark:hover:bg-white dark:hover:text-gray-950"
             >
@@ -21,6 +23,7 @@ import Lucas from '@/assets/imgs/lucas.png';
             </a>
             <a
                 href="https://leetcode.com/lucas-dantas10/"
+                aria-label="Link para o leetcode"
                 target="_blank"
                 class="border-l-gray-950 rounded-xl px-4 py-2 bg-gray-950 hover:bg-blue-600 dark:bg-gray-950 text-white dark:hover:bg-white dark:hover:text-gray-950"
             >
