@@ -25,7 +25,7 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
             />
 
             <Card
-                title="ToDo List Website"
+                title="ToDo List Website (Em Desenvolvimento)"
                 subtitle="Todo List - Aplicação que possibilita adicionar tarefas, editar tarefas, adicionar customizações, possui um cronômetro para poder medir o tempo que realiza a tarefa, calendário para identificar as tarefas do dia selecionado."
                 :image="TodoList"
                 github="https://github.com/lucas-dantas10/TodoList"
@@ -41,7 +41,7 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
             />
 
             <Card
-                title="E-commerce"
+                title="E-commerce (Em Desenvolvimento)"
                 subtitle="E-commerce -  Aplicação E-commerce construída com Laravel, VueJs, tailwindcss. Com painel de administrador com dashboard e relatórios, Api RESTful, gerenciamento de cliente, pagamento e etc."
                 :image="Ecommerce"
                 github="https://github.com/lucas-dantas10/e-commerce"
