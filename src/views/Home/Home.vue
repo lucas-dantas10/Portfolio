@@ -54,7 +54,7 @@ import Lucas from '@/assets/imgs/lucas.png';
 
                     <div class="w-full">
                         <a
-                            href="https://drive.google.com/file/d/1vz6pMsbE7Z-LD1fpPB7JkaZHASfaO4Nm/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1bLd7PcwXUuJdroeePMQHXnS2BOzid94A/view?usp=sharing"
                             download="Lucas-Dantas.pdf" 
                             target="_blank"
                             class="uppercase font-semibold py-2 px-4 rounded-md border-2 border-gray-900 hover:bg-gray-900 hover:text-white hover:cursor-pointer dark:bg-white dark:border-gray-950 text-black dark:hover:bg-gray-950 dark:hover:text-white"
