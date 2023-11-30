@@ -25,7 +25,7 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
             />
 
             <Card
-                title="ToDo List Website (Em Desenvolvimento)"
+                title="ToDo List Website"
                 subtitle="Todo List - Aplicação que possibilita adicionar tarefas, editar tarefas, adicionar customizações, possui um cronômetro para poder medir o tempo que realiza a tarefa, calendário para identificar as tarefas do dia selecionado."
                 :image="TodoList"
                 github="https://github.com/lucas-dantas10/TodoList"
@@ -37,7 +37,7 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 subtitle="Todo List -  A API do ToDoList é uma interface de programação de aplicativos (API) RESTful projetada para uma aplicação web de gerenciamento de tarefas. Ela permite a comunicação entre o front-end e o back-end."
                 :image="TodoList"
                 github="https://github.com/lucas-dantas10/ToDoListApi"
-                website="https://github.com/lucas-dantas10/ToDoListApi"
+                website="https://omlyy.com.br/public"
             />
 
             <Card
