@@ -7,7 +7,7 @@ import { OhVueIcon, addIcons } from "oh-vue-icons";
 import { 
     BiGithub, BiLinkedin, CoLeetcode, ViFileTypeHtml, ViFileTypeCss, CoJavascript, ViFileTypePhp3, 
     ViFileTypeVue, SiLaravel, ViFileTypeDocker, ViFileTypeTailwind, ViFileTypePython, CoLocationPin,
-    MdEmail, CoPhone, GiWorld, BiArrowUpCircleFill
+    MdEmail, CoPhone, GiWorld, BiArrowUpCircleFill, ViFileTypeTypescriptOfficial, SiPrisma, ViFileTypeNode
  } 
 from "oh-vue-icons/icons";
 
@@ -16,7 +16,7 @@ addIcons(
     ViFileTypeCss, CoJavascript, ViFileTypePhp3, 
     ViFileTypeVue, SiLaravel, ViFileTypeDocker, 
     ViFileTypeTailwind, ViFileTypePython, CoLocationPin, 
-    MdEmail, CoPhone, GiWorld, GiWorld, BiArrowUpCircleFill
+    MdEmail, CoPhone, GiWorld, GiWorld, BiArrowUpCircleFill, ViFileTypeTypescriptOfficial, SiPrisma, ViFileTypeNode
 );
 
 const app = createApp(App);
