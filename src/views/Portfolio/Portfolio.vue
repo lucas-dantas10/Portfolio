@@ -22,14 +22,16 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 :image="UploadAi"
                 github="https://github.com/lucas-dantas10/upload.ai"
                 website="https://github.com/lucas-dantas10/upload.ai"
+                :icon-language="[{name: 'vi-file-type-vue'}, {name: 'vi-file-type-typescript-official'}, {name: 'si-prisma'}, {name: 'vi-file-type-node'}]"
             />
 
             <Card
                 title="ToDo List Website"
-                subtitle="Todo List - Aplicação que possibilita adicionar tarefas, editar tarefas, adicionar customizações, possui um cronômetro para poder medir o tempo que realiza a tarefa, calendário para identificar as tarefas do dia selecionado."
+                subtitle="Todo List - Aplicação que possibilita adicionar tarefas, editar tarefas, adicionar customizações, adicionar prioridade da tarefa e adicionar categorias para as tarefas. Aplicação para poder gerenciar suas tarefas diárias."
                 :image="TodoList"
                 github="https://github.com/lucas-dantas10/TodoList"
                 website="https://todolistapp01.netlify.app/"
+                :icon-language="[{name: 'vi-file-type-vue'}, {name: 'vi-file-type-tailwind'}]"
             />
 
             <Card
@@ -38,6 +40,7 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 :image="TodoList"
                 github="https://github.com/lucas-dantas10/ToDoListApi"
                 website="https://omlyy.com.br/public"
+                :icon-language="[{name: 'si-laravel', color: 'red'}, {name: 'vi-file-type-docker'}]"
             />
 
             <Card
@@ -46,6 +49,7 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 :image="Ecommerce"
                 github="https://github.com/lucas-dantas10/e-commerce"
                 website="https://github.com/lucas-dantas10/e-commerce"
+                :icon-language="[{name: 'si-laravel', color: 'red'}, {name: 'vi-file-type-vue'}, {name: 'vi-file-type-tailwind'}, {name: 'vi-file-type-docker'}]"
             />
         </div>
     </section>
