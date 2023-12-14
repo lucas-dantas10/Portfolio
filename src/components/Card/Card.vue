@@ -1,10 +1,12 @@
 <script setup>
+import { ref } from 'vue';
 const props = defineProps({
     title: String,
     subtitle: String,
     image: Image,
     github: String,
-    website: String
+    website: String,
+    iconLanguage: Array,
 });
 </script>
 
@@ -18,6 +20,10 @@ const props = defineProps({
                 <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     {{ title }}
                 </h2>
+
+                <div class="flex flex-row items-center gap-2 dark:text-white pt-2 pb-2">
+                    <v-icon v-for="(icon, i) in iconLanguage" :key="i" :name="icon.name" :fill="icon.color" :scale="1.4" animation="wrench" :hover="true"></v-icon>
+                </div>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 {{ subtitle }}
