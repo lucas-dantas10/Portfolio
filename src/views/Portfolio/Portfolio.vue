@@ -21,7 +21,7 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 subtitle="Todo List - Aplicação que possibilita adicionar tarefas, editar tarefas, adicionar customizações, adicionar prioridade da tarefa e adicionar categorias para as tarefas. Aplicação para poder gerenciar suas tarefas diárias."
                 :image="TodoList"
                 github="https://github.com/lucas-dantas10/TodoList"
-                website="https://todolistapp01.netlify.app/"
+                website="https://tolist-one.vercel.app/"
                 :icon-language="[{name: 'vi-file-type-vue'}, {name: 'vi-file-type-tailwind'}]"
             />
 
