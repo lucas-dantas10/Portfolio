@@ -13,10 +13,10 @@ const props = defineProps({
 <template>
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <div>
-            <img class="rounded-t-lg aspect-video" :src="image" alt="" />
+            <img class="rounded-t-lg h-full w-full aspect-video" :src="image" alt="" />
         </div>
         <div class="p-5">
-            <a href="#">
+            <a :href="website" target="_blank">
                 <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     {{ title }}
                 </h2>
