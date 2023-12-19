@@ -1,7 +1,8 @@
 <script setup>
 import Card from '@/components/Card/Card.vue';
 import UploadAi from '@/assets/imgs/upload_ai.png';
-import TodoList from '@/assets/imgs/todolist.png';
+import TodoList from '@/assets/imgs/todolist-image.png';
+// import TodoList from '@/assets/imgs/todolist.png';
 import InvoiceApi from '@/assets/imgs/invoice-api.png';
 import Ecommerce from '@/assets/imgs/ecommerce.png';
 </script>
@@ -18,17 +19,16 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
 
         <div class="w-full flex flex-wrap items-center gap-6">
             <Card
-                title="ToDo List Website"
+                title="Tolist-One Website"
                 subtitle="Todo List - Aplicação que possibilita adicionar tarefas, editar tarefas, adicionar customizações, adicionar prioridade da tarefa e adicionar categorias para as tarefas. Aplicação para poder gerenciar suas tarefas diárias."
                 :image="TodoList"
                 github="https://github.com/lucas-dantas10/TodoList"
-                website="https://tolist-one.vercel.clear
-                app/"
+                website="https://tolist-one.vercel.app"
                 :icon-language="[{name: 'vi-file-type-vue'}, {name: 'vi-file-type-tailwind'}]"
             />
 
             <Card
-                title="ToDo List API"
+                title="Tolist-One API"
                 subtitle="Todo List - A API do ToDoList é uma interface de programação de aplicativos (API) RESTful projetada para uma aplicação web de gerenciamento de tarefas. Ela permite a comunicação entre o front-end e o back-end."
                 :image="TodoList"
                 github="https://github.com/lucas-dantas10/ToDoListApi"
