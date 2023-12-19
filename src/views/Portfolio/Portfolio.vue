@@ -41,7 +41,7 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 subtitle="Invoice API - A API do de invoice é uma API RESTful para gerenciamento de faturas e consulta de usuários destas faturas e usuários do sistema. Utilizado swagger para testes de utiliação desta API."
                 :image="InvoiceApi"
                 github="https://github.com/lucas-dantas10/invoice-api"
-                website="https://github.com/lucas-dantas10/invoice-api"
+                website="https://api-invoice.online"
                 :icon-language="[{name: 'si-laravel', color: 'red'}, {name: 'vi-file-type-docker'}]"
             />
 
