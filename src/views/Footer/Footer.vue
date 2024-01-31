@@ -55,6 +55,14 @@
                             :hover="true"
                         ></v-icon>
                     </a>
+
+                    <a
+                        href="https://wa.me//5521995969988?text=Vim%20do%20seu%20portfólio!%20Podemos%20marcar%20uma%20entrevista?"
+                        aria-label="Link para o whatsapp"
+                        target="_blank"
+                    >
+                        <v-icon name="bi-whatsapp"  class="dark:text-white" :scale="1.4" animation="wrench" :hover="true"></v-icon>
+                    </a>
                 </div>
             </div>
 

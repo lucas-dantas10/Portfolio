@@ -61,6 +61,14 @@ function initializeTyped() {
             >
                 <v-icon name="co-leetcode" :scale="1.4" animation="wrench" :hover="true"></v-icon>
             </a>
+            <a
+                href="https://wa.me//5521995969988?text=Vim%20do%20seu%20portfólio!%20Podemos%20marcar%20uma%20entrevista?"
+                aria-label="Link para o whatsapp"
+                target="_blank"
+                class="border-l-gray-950 rounded-xl px-4 py-2 bg-gray-950 hover:bg-blue-600 dark:bg-gray-950 text-white dark:hover:bg-white dark:hover:text-gray-950"
+            >
+                <v-icon name="bi-whatsapp" :scale="1.4" animation="wrench" :hover="true"></v-icon>
+            </a>
         </div>
 
         <div class="w-full flex-1 flex items-center gap-40">
