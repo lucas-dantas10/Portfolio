@@ -13,7 +13,7 @@ const props = defineProps({
 <template>
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <div>
-            <img class="rounded-t-lg h-[210px] w-full aspect-video" :src="image" alt="" />
+            <img class="rounded-t-lg h-[210px] w-full aspect-video hover:scale-95 hover:transition hover:ease" :src="image" alt="" />
         </div>
         <div class="p-5">
             <a :href="website" target="_blank">

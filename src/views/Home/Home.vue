@@ -72,7 +72,7 @@ function initializeTyped() {
 
                 <div class="w-full flex flex-col gap-4">
                     <div
-                        class="flex items-center gap-4 border-b border-gray-500 lg:w-[80%] pb-2 dark:border-gray-400"
+                        class="flex items-center gap-4 border-b border-gray-500 lg:w-[85%] pb-2 dark:border-gray-400"
                     >
                         <v-icon
                             name="si-laravel"
@@ -81,8 +81,10 @@ function initializeTyped() {
                             animation="wrench"
                             :hover="true"
                         ></v-icon>
-                        <v-icon name="vi-file-type-vue" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon name="vi-file-type-php3" :scale="1.4" animation="wrench" :hover="true"></v-icon>
+                        <v-icon name="vi-file-type-csharp2" :scale="1.4" animation="wrench" :hover="true"></v-icon>
+                        <v-icon name="vi-file-type-vue" :scale="1.4" animation="wrench" :hover="true"></v-icon>
+                        <v-icon name="vi-file-type-docker" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon name="vi-file-type-python" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon
                             name="co-javascript"
@@ -93,7 +95,6 @@ function initializeTyped() {
                         ></v-icon>
                         <v-icon name="vi-file-type-html" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon name="vi-file-type-css" :scale="1.4" animation="wrench" :hover="true"></v-icon>
-                        <v-icon name="vi-file-type-docker" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon
                             name="vi-file-type-tailwind"
                             :scale="1.4"
