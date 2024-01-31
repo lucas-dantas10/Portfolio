@@ -23,7 +23,7 @@ import ButtonGoToTop from '@/components/ButtonGoToTop/ButtonGoToTop.vue';
         
     </main>
 
-    <ButtonGoToTop />
+    <!-- <ButtonGoToTop /> -->
 
     <Footer />
   </div>

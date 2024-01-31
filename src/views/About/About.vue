@@ -13,14 +13,14 @@ import AboutImage from "@/assets/imgs/about_me.svg";
 
         <div class="flex flex-col justify-center items-center lg:w-full lg:flex-row lg:justify-center lg:gap-32 2xl:justify-between">
             <div class="lg:w-80 lg:h-80">
-                <img :src="AboutImage" alt="Imagem de um Vector Pensativo" class="w-80- h-80" />
+                <img :src="AboutImage" alt="Imagem de um Vector Pensativo" class="w-80 h-80" />
             </div>
 
             <div class="w-full flex flex-col gap-4 lg:w-[40%] lg:flex-col lg:gap-4">
                 <h2 class="text-2xl font-bold dark:text-blue-600">Desenvolvedor Full Stack</h2>
 
                 <p class="text-justify font-medium dark:text-white">
-                    Sou estudante de Sistemas de Informação e um Desenvolvedor Full Stack,
+                    Sou estudante de Sistemas de Informação e um Desenvolvedor Full Stack com foco no Back-End,
                     com uma forte dedicação em implementar, executar e integrar sistemas, sites, softwares e mais. 
                     Mantenho-me altamente motivado, buscando constantemente aprimorar minhas habilidades.
                 </p>

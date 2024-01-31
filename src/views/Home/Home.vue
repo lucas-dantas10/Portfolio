@@ -1,10 +1,42 @@
 <script setup>
-import Lucas from '@/assets/imgs/lucas.png';
+import Lucas from "@/assets/imgs/lucas.png";
+import { onMounted, ref } from "vue";
+import TypeIt from "typeit";
+
+const texts = ref(null);
+onMounted(() => {
+    initializeTyped();
+});
+
+function initializeTyped() {
+    texts.value.focus();
+
+    new TypeIt(texts.value, {
+        speed: 30,
+        waitUntilVisible: true,
+    })
+    .type("Lukas", { delay: 300 })
+    .move(-2)
+    .delete(1)
+    .type("c")
+    .move(null, { to: "END" })
+    .type(" Dantas")
+    .break({ delay: 500 })
+    .type("Desenvolvedor Backend")
+    .delete(7)
+    .type("Full Stack")
+    .go();
+}
 </script>
 
 <template>
-    <section class="h-[40vh] mb-32 mt-32 lg:mb-0 lg:mt-0 flex flex-wrap items-center gap-16 max-w-screen-xl lg:h-[80vh] mx-auto p-4" id="home">
-        <div class="w-full order-last flex flex-row gap-4 items-center justify-center lg:flex-col lg:w-auto lg:order-none lg:items-center">
+    <section
+        class="h-[40vh] mb-32 mt-32 lg:mb-0 lg:mt-0 flex flex-wrap items-center gap-16 max-w-screen-xl lg:h-[80vh] mx-auto p-4"
+        id="home"
+    >
+        <div
+            class="w-full order-last flex flex-row gap-4 items-center justify-center lg:flex-col lg:w-auto lg:order-none lg:items-center"
+        >
             <a
                 href="https://github.com/lucas-dantas10"
                 aria-label="Link para o github"
@@ -33,29 +65,47 @@ import Lucas from '@/assets/imgs/lucas.png';
 
         <div class="w-full flex-1 flex items-center gap-40">
             <div class="flex-1 flex flex-col gap-4 w-[50%] dark:text-white">
-                <h1 class="dark:text-white text-5xl font-semibold">Lucas Dantas</h1>
 
-                <h2 class="text-2xl font-semibold">Desenvolvedor Full Stack</h2>
+                <p ref="texts" class="dark:text-white font-bold text-4xl"></p>
 
                 <p class="text-lg font-medium">Este é meu Portfólio Oficial.</p>
 
                 <div class="w-full flex flex-col gap-4">
-                    <div class="flex items-center gap-4 border-b border-gray-500 lg:w-[80%] pb-2 dark:border-gray-400">
-                        <v-icon name="si-laravel" fill="red" :scale="1.4" animation="wrench" :hover="true"></v-icon>
+                    <div
+                        class="flex items-center gap-4 border-b border-gray-500 lg:w-[80%] pb-2 dark:border-gray-400"
+                    >
+                        <v-icon
+                            name="si-laravel"
+                            fill="red"
+                            :scale="1.4"
+                            animation="wrench"
+                            :hover="true"
+                        ></v-icon>
                         <v-icon name="vi-file-type-vue" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon name="vi-file-type-php3" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon name="vi-file-type-python" :scale="1.4" animation="wrench" :hover="true"></v-icon>
-                        <v-icon name="co-javascript" fill="yellow" :scale="1.4" animation="wrench" :hover="true"></v-icon>
+                        <v-icon
+                            name="co-javascript"
+                            fill="yellow"
+                            :scale="1.4"
+                            animation="wrench"
+                            :hover="true"
+                        ></v-icon>
                         <v-icon name="vi-file-type-html" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon name="vi-file-type-css" :scale="1.4" animation="wrench" :hover="true"></v-icon>
                         <v-icon name="vi-file-type-docker" :scale="1.4" animation="wrench" :hover="true"></v-icon>
-                        <v-icon name="vi-file-type-tailwind" :scale="1.4" animation="wrench" :hover="true"></v-icon>
+                        <v-icon
+                            name="vi-file-type-tailwind"
+                            :scale="1.4"
+                            animation="wrench"
+                            :hover="true"
+                        ></v-icon>
                     </div>
 
                     <div class="w-full">
                         <a
                             href="https://drive.google.com/file/d/1JsyCJH3vsVKy5BpCiU6Til4eUFB34bix/view?usp=sharing"
-                            download="Lucas-Dantas.pdf" 
+                            download="Lucas-Dantas.pdf"
                             target="_blank"
                             class="uppercase font-semibold py-2 px-4 rounded-md border-2 border-gray-900 hover:bg-gray-900 hover:text-white hover:cursor-pointer dark:bg-white dark:border-gray-950 text-black dark:hover:bg-gray-950 dark:hover:text-white"
                         >
@@ -66,7 +116,11 @@ import Lucas from '@/assets/imgs/lucas.png';
             </div>
 
             <div class="hidden lg:block lg:flex-1">
-                <img :src="Lucas" alt="Imagem do Lucas" class="hidden lg:block lg:w-52 lg:h-52 lg:border-2 lg:border-gray-950 lg:rounded-full lg:dark:border lg:dark:border-white">
+                <img
+                    :src="Lucas"
+                    alt="Imagem do Lucas"
+                    class="hidden lg:block lg:w-52 lg:h-52 lg:border-2 lg:border-gray-950 lg:rounded-full lg:dark:border lg:dark:border-white"
+                />
             </div>
         </div>
     </section>

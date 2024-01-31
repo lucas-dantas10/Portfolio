@@ -1,6 +1,6 @@
 <template>
     <footer
-        class="w-full h-full p-6 mb-32 lg:mt-32 lg:mb-0 bg-gradient-to-b from-white to-gray-400 dark:bg-gradient-to-b dark:from-gray-900 dark:to-black"
+        class="w-full h-full p-6 mb-32 lg:mt-12 lg:mb-0 bg-gradient-to-b from-white to-gray-400 dark:bg-gradient-to-b dark:from-gray-900 dark:to-black"
         id="footer"
     >
         <div class="w-full h-full">
