@@ -2,7 +2,6 @@
 import Card from '@/components/Card/Card.vue';
 import UploadAi from '@/assets/imgs/upload_ai.png';
 import TodoList from '@/assets/imgs/todolist-image.png';
-// import TodoList from '@/assets/imgs/todolist.png';
 import InvoiceApi from '@/assets/imgs/invoice-api.png';
 import Ecommerce from '@/assets/imgs/ecommerce.png';
 </script>
