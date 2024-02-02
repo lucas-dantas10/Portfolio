@@ -2,6 +2,8 @@
     <footer
         class="w-full h-full p-6 lg:mt-12 lg:mb-0 bg-gradient-to-b from-white to-gray-400 dark:bg-gradient-to-b dark:from-gray-900 dark:to-black"
         id="footer"
+        data-aos="fade-up" 
+        data-aos-delay="100"
     >
         <div class="w-full h-full">
             <div class="flex flex-col items-center gap-8">

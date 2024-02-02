@@ -8,7 +8,7 @@
             </div>
         </div>
 
-        <div class="w-full flex flex-col gap-6 justify-center lg:flex-row lg:items-center lg:justify-between">
+        <div class="w-full flex flex-col gap-6 justify-center lg:flex-row lg:items-center lg:justify-between" data-aos="fade-right" data-aos-delay="100">
             <div class="flex items-center gap-6">
                 <v-icon name="co-location-pin" class="text-red-500" :scale="1.4" animation="wrench" :hover="true"></v-icon>
 

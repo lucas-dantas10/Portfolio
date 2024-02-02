@@ -24,6 +24,8 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 github="https://github.com/lucas-dantas10/TodoList"
                 website="https://tolist-one.vercel.app"
                 :icon-language="[{name: 'vi-file-type-vue'}, {name: 'vi-file-type-tailwind'}]"
+                data-aos="fade-up"
+                data-aos-delay="60"
             />
 
             <Card
@@ -33,6 +35,8 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 github="https://github.com/lucas-dantas10/ToDoListApi"
                 website="https://omlyy.com.br/public"
                 :icon-language="[{name: 'si-laravel', color: 'red'}, {name: 'vi-file-type-docker'}]"
+                data-aos="fade-up"
+                data-aos-delay="80"
             />
 
             <Card
@@ -42,6 +46,8 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 github="https://github.com/lucas-dantas10/invoice-api"
                 website="https://api-invoice.online"
                 :icon-language="[{name: 'si-laravel', color: 'red'}, {name: 'vi-file-type-docker'}]"
+                data-aos="fade-up"
+                data-aos-delay="100"
             />
 
             <Card
@@ -51,6 +57,8 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 github="https://github.com/lucas-dantas10/e-commerce"
                 website="https://github.com/lucas-dantas10/e-commerce"
                 :icon-language="[{name: 'si-laravel', color: 'red'}, {name: 'vi-file-type-vue'}, {name: 'vi-file-type-tailwind'}, {name: 'vi-file-type-docker'}]"
+                data-aos="fade-up"
+                data-aos-delay="120"
             />
 
             <Card
@@ -60,6 +68,8 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 github="https://github.com/lucas-dantas10/upload.ai"
                 website="https://github.com/lucas-dantas10/upload.ai"
                 :icon-language="[{name: 'vi-file-type-vue'}, {name: 'vi-file-type-typescript-official'}, {name: 'si-prisma'}, {name: 'vi-file-type-node'}]"
+                data-aos="fade-up"
+                data-aos-delay="140"
             />
         </div>
     </section>

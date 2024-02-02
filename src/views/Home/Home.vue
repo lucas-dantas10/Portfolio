@@ -31,7 +31,7 @@ function initializeTyped() {
 
 <template>
     <section
-        class="h-[40vh] mb-32 mt-32 lg:mb-0 lg:mt-0 flex flex-wrap items-center gap-16 max-w-screen-xl lg:h-[80vh] mx-auto p-4"
+        class="h-[40vh] mb-32 mt-32 lg:mb-0 lg:mt-0 flex flex-wrap items-center gap-16 max-w-screen-xl lg:h-[80vh] mx-auto p-4 animate-slide-in-right"
         id="home"
     >
         <div
