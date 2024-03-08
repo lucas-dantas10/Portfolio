@@ -75,11 +75,23 @@ function sendEmail() {
                         placeholder="Deixe um comentário...">
                     </textarea>
                 </div>
-                <button type="submit"
-                    class="py-3 px-5 w-full flex items-center text-sm font-medium text-center text-white rounded-lg bg-black sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-white dark:text-black dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-                    <Spinner :isLoading="isLoading" />
-                    Enviar Mensagem
-                </button>
+
+                <div class="flex items-center gap-4">
+                    <button type="submit"
+                        class="py-3 px-5 w-full flex items-center text-sm font-medium text-center text-white rounded-lg bg-black sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-white dark:text-black dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                        <Spinner :isLoading="isLoading" />
+                        Enviar Mensagem
+                    </button>
+
+                    <a 
+                        target="_blank"
+                        href="https://wa.me//5521995969988?text=Vim%20do%20seu%20portfólio!%20Podemos%20marcar%20uma%20entrevista?"
+                        class="py-3 px-5 w-full flex items-center bg-emerald-800 text-sm font-medium text-center text-white rounded-lg sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:text-black dark:hover:bg-primary-700 dark:focus:ring-primary-800 dark:bg-emerald-300 "
+                    >
+                        Conversar no WhatsApp
+                    </a>
+                </div>
+                
             </form>
             <!-- <div class="flex items-center gap-6">
                 <v-icon name="co-location-pin" class="text-red-500" :scale="1.4" animation="wrench" :hover="true"></v-icon>
