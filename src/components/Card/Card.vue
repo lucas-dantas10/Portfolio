@@ -12,9 +12,9 @@ const props = defineProps({
 
 <template>
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <div>
-            <img class="rounded-t-lg h-[210px] w-full aspect-video hover:scale-95 hover:transition hover:ease" :src="image" alt="" />
-        </div>
+        <a :href="website" target="_blank">
+            <img class="rounded-t-lg h-[210px] w-full aspect-video hover:scale-95 hover:transition hover:ease" :src="image" alt="Imagem de representação de um projeto" />
+        </a>
         <div class="p-5">
             <a :href="website" target="_blank">
                 <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
