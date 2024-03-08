@@ -76,9 +76,9 @@ function sendEmail() {
                     </textarea>
                 </div>
 
-                <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4 w-full">
                     <button type="submit"
-                        class="py-3 px-5 w-full flex items-center text-sm font-medium text-center text-white rounded-lg bg-black sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-white dark:text-black dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                        class="py-3 px-5 w-3/4 flex items-center text-sm font-medium text-center text-white rounded-lg bg-black sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-white dark:text-black dark:hover:bg-primary-700 dark:focus:ring-primary-800">
                         <Spinner :isLoading="isLoading" />
                         Enviar Mensagem
                     </button>

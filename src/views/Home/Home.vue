@@ -63,8 +63,7 @@ function initializeTyped() {
                 <p class="text-lg font-medium">Este é meu Portfólio Oficial.</p>
 
                 <div class="w-full flex flex-col gap-4">
-                    <div class="flex items-center gap-4 border-b border-gray-500 lg:w-full pb-2 dark:border-gray-400">
-
+                    <div class="flex items-center gap-4 border-b border-gray-500 lg:w-full pb-2 dark:border-gray-400 overflow-scroll lg:overflow-hidden">
                         <Tooltip text="Laravel">
                             <v-icon data-tooltip-target="tooltip-default" name="si-laravel" fill="red" :scale="2"
                             animation="wrench" :hover="true"></v-icon>

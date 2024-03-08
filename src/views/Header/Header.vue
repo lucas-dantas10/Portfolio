@@ -4,7 +4,7 @@ import NavBar from '../../components/NavBar/NavBar.vue';
 
 <template>
     
-    <header>
+    <header class="lg:w-full lg:fixed">
         <NavBar />
     </header>
     
