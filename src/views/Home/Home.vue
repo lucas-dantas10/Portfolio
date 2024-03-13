@@ -118,7 +118,7 @@ function initializeTyped() {
 
             <div class="hidden lg:block lg:flex-1">
                 <img :src="Lucas" alt="Imagem do Lucas"
-                    class="hidden lg:block lg:w-52 lg:h-52 lg:border-2 lg:border-gray-950 lg:rounded-full lg:dark:border lg:dark:border-white" />
+                    class="hidden lg:block lg:w-52 lg:h-52 lg:border-2 lg:border-gray-950 lg:rounded-full  lg:dark:border lg:dark:border-white" />
             </div>
         </div>
     </section>

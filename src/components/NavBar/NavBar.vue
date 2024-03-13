@@ -1,8 +1,19 @@
 <script setup>
 import Switch from "../Switch/Switch.vue";7
-import { ref, onUpdated } from 'vue';
+import { ref } from 'vue';
 
 const isOpenMenu = ref(false);
+const menusDesktop = ref([
+    {name: 'Home', href: "#home"},
+    {name: 'Sobre', href: "#about"},
+    {name: 'Portfólio', href: "#portfolio"},
+    {name: 'Contato', href: "#contact"},
+]);
+const activeIndex = ref(0);
+
+function setActiveIndex(index) {
+    activeIndex.value = index;
+}
 
 function openMenu() {
     isOpenMenu.value = !isOpenMenu.value;
@@ -25,52 +36,27 @@ function openMenu() {
 
             <div v-if="isOpenMenu" class=" order-last w-full animate-fade-in-down lg:block" id="navbar-default">
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                    <li>
-                        <a href="#home" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded lg:bg-transparent lg:text-blue-700 lg:p-0 dark:text-white lg:dark:text-blue-500" aria-current="page">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Portfólio</a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Contato</a>
+                    <li v-for="(menu, i) in menusDesktop">
+                        <a
+                            :href="menu.href"
+                            @click="setActiveIndex(i)"
+                            :class="{ '!text-blue-600': activeIndex === i }"
+                            class="block py-2 pl-3 pr-4 text-black  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-600 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                            >{{menu.name}}</a
+                        >
                     </li>
                 </ul>
             </div>
 
             <div id="mega-menu" class="items-center justify-between hidden w-full lg:flex lg:w-auto">
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                    <li>
+                    <li v-for="(menu, i) in menusDesktop">
                         <a
-                            href="#home"
-                            class="block py-2 pl-3 pr-4 text-blue-600 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-600 lg:p-0 dark:text-blue-500 lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 lg:dark:hover:bg-transparent dark:border-gray-700"
-                            aria-current="page"
-                            >Home</a
-                        >
-                    </li>
-                    <li>
-                        <a 
-                            href="#about"
-                            class="block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-600 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 lg:dark:hover:bg-transparent dark:border-gray-700"
-                            aria-current="page"
-                        >
-                            Sobre
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="#portfolio"
-                            class="block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-600 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 lg:dark:hover:bg-transparent dark:border-gray-700"
-                            >Portfólio</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="#contact"
-                            class="block py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-600 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 lg:dark:hover:bg-transparent dark:border-gray-700"
-                            >Contato</a
+                            :href="menu.href"
+                            @click="setActiveIndex(i)"
+                            :class="{ '!text-blue-600': activeIndex === i }"
+                            class="block py-2 pl-3 pr-4 text-black border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-600 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                            >{{menu.name}}</a
                         >
                     </li>
                 </ul>
