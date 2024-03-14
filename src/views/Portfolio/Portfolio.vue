@@ -4,6 +4,7 @@ import UploadAi from '@/assets/imgs/upload_ai.png';
 import TodoList from '@/assets/imgs/todolist-image.png';
 import InvoiceApi from '@/assets/imgs/invoice-api.png';
 import Ecommerce from '@/assets/imgs/ecommerce.png';
+import Ibph from '@/assets/imgs/ibph.png';
 </script>
 
 <template>
@@ -68,6 +69,17 @@ import Ecommerce from '@/assets/imgs/ecommerce.png';
                 github="https://github.com/lucas-dantas10/upload.ai"
                 website="https://github.com/lucas-dantas10/upload.ai"
                 :icon-language="[{name: 'vi-file-type-vue'}, {name: 'vi-file-type-typescript-official'}, {name: 'si-prisma'}, {name: 'vi-file-type-node'}]"
+                data-aos="fade-up"
+                data-aos-delay="140"
+            />
+
+            <Card
+                title="IBPH Online"
+                subtitle="Desenvolvi uma landing page para o Instituto Brasileiro de Performance Humana, visando engajamento, apresentação de conteúdo, otimização de SEO e demonstração eficaz do funcionamento do instituto."
+                :image="Ibph"
+                github="http://ibphonline.com.br/"
+                website="http://ibphonline.com.br/"
+                :icon-language="[{name: 'io-pulse'}, {name: 'vi-file-type-html'}, {name: 'vi-file-type-css'}]"
                 data-aos="fade-up"
                 data-aos-delay="140"
             />
