@@ -21,7 +21,7 @@ function openMenu() {
 </script>
 
 <template>
-    <nav class="bg-white  border-gray-200 dark:bg-gray-900 overflow-hidden">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 overflow-hidden z-10">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4 animate-slide-in-left">
             <a href="#home" class="flex items-center">
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">LD</span>

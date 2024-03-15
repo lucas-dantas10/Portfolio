@@ -5,6 +5,7 @@ import TodoList from '@/assets/imgs/todolist-image.png';
 import InvoiceApi from '@/assets/imgs/invoice-api.png';
 import Ecommerce from '@/assets/imgs/ecommerce.png';
 import Ibph from '@/assets/imgs/ibph.png';
+import VueTracker from '@/assets/imgs/vue-tracker.png';
 </script>
 
 <template>
@@ -80,6 +81,17 @@ import Ibph from '@/assets/imgs/ibph.png';
                 github="http://ibphonline.com.br/"
                 website="http://ibphonline.com.br/"
                 :icon-language="[{name: 'io-pulse'}, {name: 'vi-file-type-html'}, {name: 'vi-file-type-css'}]"
+                data-aos="fade-up"
+                data-aos-delay="140"
+            />
+
+            <Card
+                title="Alura Tracker"
+                subtitle="O Projeto Alura Tracker organiza tarefas, registra o tempo de trabalho e inicia cronômetros para melhorar a produtividade pessoal. Realizado em conjunto da Alura" 
+                :image="VueTracker"
+                github="https://github.com/lucas-dantas10/Alura-Tracker"
+                website="https://alura-tracker-umber.vercel.app/"
+                :icon-language="[{name: 'vi-file-type-vue'}, {name: 'vi-file-type-typescript-official'}]"
                 data-aos="fade-up"
                 data-aos-delay="140"
             />
